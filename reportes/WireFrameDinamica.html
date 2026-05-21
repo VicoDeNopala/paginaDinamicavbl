@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CansinoRock</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        background-color: #111;
+        color: white;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .hero {
+        background-color: #1b1b1b;
+        padding: 100px 20px;
+        text-align: center;
+      }
+
+      .section {
+        padding: 80px 20px;
+      }
+
+      .card-rock {
+        background-color: #222;
+        border: 1px solid #444;
+        color: white;
+      }
+
+      footer {
+        background-color: #000;
+        padding: 30px;
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#inicio">CansinoRock</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mision">Misión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container">
+        <img
+          src="https://via.placeholder.com/300x200"
+          class="img-fluid rounded mb-4"
+          alt="Banda"
+        />
+
+        <h1 class="display-3 text-danger">CansinoRock</h1>
+
+        <p class="lead">Rock clásico desde Nopala de Villagrán, Hidalgo.</p>
+
+        <a href="#contacto" class="btn btn-danger btn-lg"> Contrátanos </a>
+      </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros" class="section container">
+      <h2 class="text-danger mb-4">Sobre Nosotros</h2>
+
+      <p>
+        CansinoRock es una banda de rock clásico dedicada a mantener vivo el
+        espíritu del rock mediante presentaciones en vivo, grabaciones y eventos
+        musicales.
+      </p>
+    </section>
+
+    <!-- MISION Y VISION -->
+    <section id="mision" class="section bg-dark">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card card-rock p-4 h-100">
+              <h3 class="text-danger">Misión</h3>
+              <p>
+                Llevar música rock clásica de calidad a eventos y escenarios.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card card-rock p-4 h-100">
+              <h3 class="text-danger">Visión</h3>
+              <p>
+                Ser una banda reconocida en Hidalgo y México por su energía y
+                pasión musical.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section container">
+      <h2 class="text-danger mb-5">Servicios y Productos</h2>
+
+      <div class="table-responsive">
+        <table class="table table-dark table-striped table-bordered">
+          <thead>
+            <tr>
+              <th>Servicio</th>
+              <th>Descripción</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Presentación en Vivo</td>
+              <td>Show completo de rock clásico.</td>
+              <td>$5,000 MXN</td>
+            </tr>
+
+            <tr>
+              <td>Disco</td>
+              <td>Álbum oficial de la banda.</td>
+              <td>$250 MXN</td>
+            </tr>
+
+            <tr>
+              <td>Playera Oficial</td>
+              <td>Merchandising original.</td>
+              <td>$350 MXN</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ALIADOS -->
+    <section class="section bg-dark">
+      <div class="container">
+        <h2 class="text-danger mb-5 text-center">
+          Clientes y Aliados Estratégicos
+        </h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card card-rock h-100">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Aliado"
+              />
+
+              <div class="card-body text-center">
+                <h5>Rock House Studio</h5>
+                <p>Estudio aliado para grabaciones musicales.</p>
+
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  class="btn btn-danger"
+                >
+                  Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card card-rock h-100">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Aliado"
+              />
+
+              <div class="card-body text-center">
+                <h5>Bar Ruta 66</h5>
+                <p>Foro oficial de conciertos y eventos.</p>
+
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  class="btn btn-danger"
+                >
+                  Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card card-rock h-100">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Aliado"
+              />
+
+              <div class="card-body text-center">
+                <h5>Music Hidalgo</h5>
+                <p>Tienda de instrumentos y accesorios.</p>
+
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  class="btn btn-danger"
+                >
+                  Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" class="section container">
+      <h2 class="text-danger mb-5">Galería</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img
+            src="https://via.placeholder.com/400x300"
+            class="img-fluid rounded"
+            alt="Galería"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="https://via.placeholder.com/400x300"
+            class="img-fluid rounded"
+            alt="Galería"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="https://via.placeholder.com/400x300"
+            class="img-fluid rounded"
+            alt="Galería"
+          />
+        </div>
+      </div>
+
+      <div class="ratio ratio-16x9 mt-5">
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="YouTube video"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="section bg-dark">
+      <div class="container">
+        <h2 class="text-danger mb-5 text-center">Testimonios</h2>
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <h4>“La mejor banda de rock clásico de Hidalgo.”</h4>
+              <p>- Revista RockMX</p>
+            </div>
+
+            <div class="carousel-item text-center">
+              <h4>“Gran energía y excelente show en vivo.”</h4>
+              <p>- Fans de CansinoRock</p>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section container">
+      <h2 class="text-danger mb-5">Contacto</h2>
+
+      <form>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nombre"
+              required
+            />
+          </div>
+
+          <div class="col-md-6">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Correo"
+              required
+            />
+          </div>
+
+          <div class="col-12">
+            <textarea
+              class="form-control"
+              rows="5"
+              placeholder="Mensaje"
+            ></textarea>
+          </div>
+
+          <div class="col-12">
+            <button class="btn btn-danger btn-lg">Enviar Mensaje</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- REDES SOCIALES -->
+    <section class="section bg-black text-center">
+      <h2 class="text-danger mb-4">Síguenos</h2>
+
+      <a
+        href="https://facebook.com"
+        target="_blank"
+        class="btn btn-outline-light m-2"
+      >
+        Facebook
+      </a>
+
+      <a
+        href="https://instagram.com"
+        target="_blank"
+        class="btn btn-outline-light m-2"
+      >
+        Instagram
+      </a>
+
+      <a
+        href="https://youtube.com"
+        target="_blank"
+        class="btn btn-outline-light m-2"
+      >
+        YouTube
+      </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 CansinoRock | Todos los derechos reservados</p>
+
+      <a href="#"> Aviso de Privacidad </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
