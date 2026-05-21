@@ -1,0 +1,4 @@
+gunicorn
+Django
+djangorestframework
+django-cors-headers
