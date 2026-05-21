@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+  --black: #0d0d0d;
+  --red: #b30000;
+  --gray: #666666;
+  --light: #f2f2f2;
+}
+
+body {
+  margin: 0;
+  background-color: var(--black);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-title {
+  color: var(--red);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1501386761578-eac5c94b800a");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.card-rock {
+  background-color: #1a1a1a;
+  border: 1px solid var(--red);
+  color: white;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.footer {
+  background-color: #111;
+  padding: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
